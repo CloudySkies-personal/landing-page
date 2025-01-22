@@ -7,15 +7,28 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
 }
+
+
+
+.main-header,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.main-header li,
+.main-header text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 
 .main-header {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
-    color: white;
-    padding: 0px 100px;
-    font-family: Roboto;
+    padding: 0px 100px;    
 }
 
 
@@ -23,7 +36,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.top-header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    color: #3882F6;
 }
 
 .top-header ul {
@@ -42,12 +64,25 @@ body {
   flex-direction: column;
 }
 
+.lower-header .bold-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .information {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 100px;   
+}
+
+.information .title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .items {
@@ -72,7 +107,15 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: #E5E7EB;
+    padding: 0px 100px;   
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .notice-section{
@@ -90,11 +133,9 @@ body {
     width: 200px;
 }
 
-.flex-container {
-    display: flex;
-    
-}
+
 .footer {
     margin-top: auto;
     background-color:#1f2937;
+    padding: 0px 100px;   
 }
